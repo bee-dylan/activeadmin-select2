@@ -1,7 +1,7 @@
 $(function() {
   'use strict';
   let initSelect2 = function(inputs, extra) {
-    let extra = extra || {}
+    extra = extra || {}
     inputs.each(function() {
       let item = $(this)
       let options = $.extend({ allowClear: true }, extra, item.data('select2'))
